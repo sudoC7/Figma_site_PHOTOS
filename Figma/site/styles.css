@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+    
+}
+
+/*----------HEADER----------*/
+
+nav {
+    width: 100%;
+    padding: 30px 30px;
+    background: #8cfcfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logodevops {
+    width: 17%;
+    transition: 1s;
+}
+
+/* Pour le dynamisme du logo */
+.logodevops:hover{
+    transform: translateX(20px);
+}
+
+.menu {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+   
+} 
+
+.menu a {
+    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    color: rgb(224, 224, 206); /* Changer la couleur au survol */
+}
+
+/*--------------------------*/
+
+
+
